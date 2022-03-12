@@ -1,9 +1,7 @@
-console.log(String.fromCharCode(67, 64, 103, 110))
-
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+// Write the created password in the text area tag to be displayed on the webpage
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
@@ -43,7 +41,6 @@ function generatePassword() {
         if (generatedPassword.length >= passwordLength) break;
 
     }
-    // console.log(generatedPassword);
     return generatedPassword.join("");
 }
 

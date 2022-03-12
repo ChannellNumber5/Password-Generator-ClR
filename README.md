@@ -2,6 +2,12 @@
 
 Hello! This is a pretty fun page that will generate a random password using the specifications that the user provides through a series of prompt windows. The html and css code for this page were provided for the assignment, so the "meat and potatoes" of the assignment is learning and codingin javascript.
 
+You can try out the Password Generator [here](https://channellnumber5.github.io/Password-Generator-ClR/)!
+
+Also, here is what the site looks like:
+
+![project screenshot](./channellnumber5.github.io_Password-Generator-ClR_(iPad%20Mini).png)
+
 Here is the base code that was given to start the password generator in javascript:
 
 ```
@@ -23,6 +29,8 @@ generateBtn.addEventListener("click", writePassword);
 
 So, not a lot to work with and, if you're new to javascript, you'll have to use the great google machine to understand what all of this means ( minus the `var`, that one I did recogniz as creating a variable).
 
+The basis of this project was determining how to prompt the user for input, store that input and then use it to build a password within the parameters that the user specifies - using capital letters, lowercase letters, numbers or special characters. It also utilizes a for loop to generate the right password length, as specified by the user.
+
 
 Here are some resources/learning opportunities used in creating this password generator:
 
@@ -30,12 +38,12 @@ Here are some resources/learning opportunities used in creating this password ge
 
 - [Difference between let and var](https://www.geeksforgeeks.org/difference-between-var-and-let-in-javascript/#:~:text=var%20and%20let%20are%20both,program%20as%20compared%20to%20let.)
 
--[Character Codes](https://www.w3schools.com/charsets/ref_utf_basic_latin.asp)
+- [Character Codes](https://www.w3schools.com/charsets/ref_utf_basic_latin.asp)
 
--[Creating Random Number Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Creating Random Number Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
--[Creating Break Points in Loops](https://www.w3schools.com/jsref/jsref_break.asp)
+- [Creating Break Points in Loops](https://www.w3schools.com/jsref/jsref_break.asp)
 
--[Adding Items to an Array](https://www.w3schools.com/jsref/jsref_push.asp)
+- [Adding Items to an Array](https://www.w3schools.com/jsref/jsref_push.asp)
 
--[Converting Arrays to Strings](https://thispointer.com/convert-array-to-string-without-comma-in-javascript/)
+- [Converting Arrays to Strings](https://thispointer.com/convert-array-to-string-without-comma-in-javascript/)
